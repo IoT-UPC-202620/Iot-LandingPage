@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "features": "Features",
+    "segments": "For Whom",
+    "how": "How It Works",
+    "pricing": "Pricing",
+    "team": "Team",
+    "cta": "Start Free"
+  },
+  "hero": {
+    "title1": "Your building",
+    "title2": "management",
+    "title3": "finally digital",
+    "subtitle": "Edifika replaces WhatsApp chats, Excel spreadsheets, and paper receipts with a centralized platform for administrators and residents.",
+    "cta_primary": "Request free demo",
+    "cta_ghost": "See features →"
+  },
+  "features": {
+    "label": "Features",
+    "title": "Everything your condominium needs",
+    "subtitle": "Three key modules that replace all the scattered tools you use today.",
+    "payments": {
+      "tag": "Most popular",
+      "title": "Payment & Debt Management",
+      "desc": "Check your debt in real-time, record payments with attached proof, and forget about informal billing.",
+      "f1": "✓ Complete payment history",
+      "f2": "✓ Digital receipt uploads",
+      "f3": "✓ Automatic defaulter reports",
+      "f4": "✓ Online payment with Culqi",
+      "f5": "✓ Exportable financial reports"
+    },
+    "reservations": {
+      "title": "Common Area Reservations",
+      "desc": "Interactive calendar with real-time availability. No conflicts, no calls, no paperwork.",
+      "f1": "✓ Availability calendar",
+      "f2": "✓ Reserve in 3 steps",
+      "f3": "✓ Administrator approval",
+      "f4": "✓ No duplicate bookings",
+      "f5": "✓ Confirmation notifications"
+    },
+    "communications": {
+      "title": "Official Communications",
+      "desc": "Administrator publishes, everyone receives. No noise, no lost messages, and with read confirmation.",
+      "f1": "✓ Structured announcements",
+      "f2": "✓ View tracking",
+      "f3": "✓ Communication history",
+      "f4": "✓ Push notifications",
+      "f5": "✓ Moderated community channel"
+    }
+  },
+  "how": {
+    "label": "How It Works",
+    "title": "In 3 steps, your condominium digitalized",
+    "step1": {
+      "number": "01",
+      "title": "Register your building",
+      "desc": "The administrator creates the building profile, adds units, and links each resident to their unit."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Invite your residents",
+      "desc": "Each owner and tenant creates their account linked to their unit. Immediate access to payments, reservations, and announcements."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Manage from one place",
+      "desc": "Forget WhatsApp and Excel. All condominium operations on your smartphone, available 24/7."
+    }
+  },
+  "segments": {
+    "label": "Who is Edifika for?",
+    "title": "Designed for every condominium stakeholder",
+    "admin": {
+      "title": "Administrators",
+      "desc": "Manage multiple buildings from a centralized dashboard. Less operational burden, more transparency.",
+      "b1": "Unified control panel",
+      "b2": "Defaulter control and collection",
+      "b3": "PDF financial reports",
+      "b4": "Publish announcements",
+      "b5": "Approve reservations",
+      "quote": "\"I used to manage everything with Excel and WhatsApp. Now I manage 15 buildings from one place.\"",
+      "author": "— César, administrator"
+    },
+    "resident": {
+      "title": "Owners & Tenants",
+      "desc": "Check your debt, reserve common areas, and stay informed without depending on the administrator.",
+      "b1": "View current debt in real-time",
+      "b2": "Pay online with Culqi/Yape",
+      "b3": "Own payment history",
+      "b4": "Reserve common areas",
+      "b5": "Receive announcements instantly",
+      "quote": "\"I no longer need to visit the administrator's office to know how much I owe. I see everything in the app.\"",
+      "author": "— Andrea, owner"
+    }
+  },
+  "stats": {
+    "stat1": "Residential units sold in Lima in just one quarter",
+    "stat2": "Of condominiums demand better management tools",
+    "stat3": "In avoidable costs with efficient digital management"
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Clear pricing, no surprises",
+    "subtitle": "Choose the plan that fits your community's size.",
+    "starter": {
+      "name": "Basic",
+      "price": "150",
+      "period": "/month per building",
+      "desc": "Ideal for small buildings starting their digitalization.",
+      "f1": "✓ Up to 20 units",
+      "f2": "✓ Payment and debt management",
+      "f3": "✓ Official communications",
+      "f4": "✓ Common area reservations",
+      "f5": "✓ Email support",
+      "btn": "Get Started"
+    },
+    "pro": {
+      "name": "Professional",
+      "badge": "Most chosen",
+      "price": "300",
+      "period": "/month per building",
+      "desc": "For medium-sized buildings with higher transaction volumes.",
+      "f1": "✓ Up to 60 units",
+      "f2": "✓ Everything in Basic plan",
+      "f3": "✓ Exportable PDF reports",
+      "f4": "✓ Advanced push notifications",
+      "f5": "✓ Online payment with Culqi",
+      "f6": "✓ Priority support",
+      "btn": "Get Started"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_label": "Custom",
+      "desc": "For property management companies handling multiple buildings.",
+      "f1": "✓ Unlimited buildings",
+      "f2": "✓ Everything in Professional plan",
+      "f3": "✓ Multi-building dashboard",
+      "f4": "✓ Integration API",
+      "f5": "✓ Dedicated onboarding",
+      "f6": "✓ Guaranteed SLA",
+      "btn": "Contact Us"
+    }
+  },
+  "team": {
+    "label": "Who are we?",
+    "title": "Meet Condomia",
+    "subtitle": "We are a Peruvian technology startup transforming residential community management through accessible and intuitive digital solutions.",
+    "mission": "Our Mission",
+    "mission_text": "Transform residential community management through accessible and intuitive digital solutions that centralize administrative processes, improve communication, and promote transparency between administrators and residents.",
+    "vision": "Our Vision",
+    "vision_text": "Become the leading platform for condominium management in Latin America, being the digital ally of every residential community seeking to operate with order, transparency, and trust.",
+    "team_label": "The team",
+    "team_title": "Built by Software Engineering Students",
+    "team_sub": "Peruvian University of Applied Sciences · Period 202610"
+  },
+  "cta": {
+    "title": "Ready to digitalize your condominium?",
+    "subtitle": "Join communities already managing their buildings with Edifika. No complications, no long contracts.",
+    "placeholder_name": "Your name",
+    "placeholder_email": "Email address",
+    "placeholder_building": "Building or company name",
+    "submit": "Request free demo",
+    "success": "Thank you! We'll be in touch with you very soon.",
+    "note": "No credit card · No commitments · Response in 24h"
+  },
+  "footer": {
+    "brand": "By Condomia · Lima, Peru · 2026",
+    "copyright": "© 2026 Condomia. All rights reserved. · Peruvian University of Applied Sciences",
+    "product": "Product",
+    "company": "Company",
+    "segments_footer": "Segments"
+  }
+}

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edifika – Gestión inteligente de condominios | Condomia</title>
+  <meta name="description" content="Edifika centraliza pagos, reservas y comunicados de tu condominio en una sola plataforma digital. Transparencia, orden y eficiencia para administradores y residentes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">Edifika</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features" data-i18n="nav.features">Funciones</a></li>
+        <li><a href="#segments" data-i18n="nav.segments">Para quién</a></li>
+        <li><a href="#how" data-i18n="nav.how">Cómo funciona</a></li>
+        <li><a href="#pricing" data-i18n="nav.pricing">Planes</a></li>
+        <li><a href="#team" data-i18n="nav.team">Equipo</a></li>
+      </ul>
+      <div class="lang-selector">
+        <button class="lang-btn active" data-lang="es">ES</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <div class="theme-selector">
+        <button class="theme-btn active" data-theme-btn="light" title="Light mode"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+        <span class="lang-sep">|</span>
+        <button class="theme-btn" data-theme-btn="dark" title="Dark mode"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+      </div>
+      <a href="https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2" class="btn-nav" data-i18n="nav.cta">Empieza gratis</a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#features" data-i18n="nav.features">Funciones</a>
+      <a href="#segments" data-i18n="nav.segments">Para quién</a>
+      <a href="#how" data-i18n="nav.how">Cómo funciona</a>
+      <a href="#pricing" data-i18n="nav.pricing">Planes</a>
+      <a href="#team" data-i18n="nav.team">Equipo</a>
+      <a href="https://www.figma.com/design/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=0-1&p=f" class="btn-mobile" data-i18n="nav.cta">Empieza gratis</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb1"></div>
+      <div class="hero-orb orb2"></div>
+      <div class="hero-orb orb3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container hero-content">
+
+      <h1 class="hero-title" id="hero-title">
+        La gestión de tu<br />
+        <span class="gradient-text">condominio</span>,<br />
+        finalmente digital
+      </h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">
+        Edifika reemplaza los chats de WhatsApp, las hojas de Excel y los recibos en papel con una plataforma centralizada para administradores y residentes.
+      </p>
+      <div class="hero-cta">
+        <a href="#cta" class="btn-primary" id="hero-main-cta" data-i18n="hero.cta_primary">Solicitar demo gratis</a>
+        <a href="#features" class="btn-ghost" data-i18n="hero.cta_ghost">Ver funciones →</a>
+      </div>
+    </div>
+    <div class="hero-mockup">
+      <div class="phone-wrap">
+        <div class="phone">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="app-header">
+              <span class="app-time">9:41</span>
+            </div>
+            <div class="app-content">
+              <div class="app-greeting">Hola, Fabiana</div>
+              <div class="app-cards">
+                <div class="app-card-item">
+                  <div class="card-icon payment-icon">●</div>
+                  <div class="app-card-text">
+                    <span class="app-card-label">Tu deuda</span>
+                    <span class="app-card-value">S/ 320.00</span>
+                  </div>
+                </div>
+                <div class="app-card-item">
+                  <div class="card-icon booking-icon">■</div>
+                  <div class="app-card-text">
+                    <span class="app-card-label">Reserva activa</span>
+                    <span class="app-card-value">Parrilla A</span>
+                  </div>
+                </div>
+              </div>
+              <div class="app-section-label">Comunicados recientes</div>
+              <div class="app-notif">
+                <div class="notif-icon">◆</div>
+                <span class="app-notif-text">Mantenimiento ascensor</span>
+              </div>
+              <div class="app-notif">
+                <div class="notif-icon">●</div>
+                <span class="app-notif-text">Junta ordinaria – 7pm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-label" data-i18n="features.label">Funcionalidades</div>
+      <h2 class="section-title" data-i18n="features.title">Todo lo que necesita tu condominio</h2>
+      <p class="section-sub" data-i18n="features.subtitle">Tres módulos clave que reemplazan todas las herramientas dispersas que usas hoy.</p>
+      <div class="features-grid">
+
+        <div class="feature-card featured" id="feat-payments">
+          <div class="feat-tag" data-i18n="features.payments.tag">Más popular</div>
+          <div class="feat-icon-wrap payments-icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="8" width="28" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="2" y1="12" x2="30" y2="12" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 data-i18n="features.payments.title">Gestión de Pagos y Deudas</h3>
+          <p data-i18n="features.payments.desc">Consulta tu deuda en tiempo real, registra pagos con comprobante adjunto y olfódate de los cobros informales.</p>
+          <ul class="feat-list">
+            <li data-i18n="features.payments.f1">✓ Historial completo de pagos</li>
+            <li data-i18n="features.payments.f2">✓ Carga de comprobantes digitales</li>
+            <li data-i18n="features.payments.f3">✓ Reporte de morosos automático</li>
+            <li data-i18n="features.payments.f4">✓ Pago en línea con Culqi</li>
+            <li data-i18n="features.payments.f5">✓ Reportes financieros exportables</li>
+          </ul>
+        </div>
+
+        <div class="feature-card" id="feat-reservations">
+          <div class="feat-icon-wrap reservations-icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="4" width="26" height="24" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M8 10h2M14 10h2M20 10h2M26 10h2M8 16h2M14 16h2M20 16h2M26 16h2M8 22h2M14 22h2M20 22h2M26 22h2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 data-i18n="features.reservations.title">Reserva de Áreas Comunes</h3>
+          <p data-i18n="features.reservations.desc">Calendario interactivo con disponibilidad en tiempo real. Sin conflictos, sin llamadas, sin papeles.</p>
+          <ul class="feat-list">
+            <li data-i18n="features.reservations.f1">✓ Calendario de disponibilidad</li>
+            <li data-i18n="features.reservations.f2">✓ Reserva en 3 pasos</li>
+            <li data-i18n="features.reservations.f3">✓ Aprobación por el administrador</li>
+            <li data-i18n="features.reservations.f4">✓ Sin reservas duplicadas</li>
+            <li data-i18n="features.reservations.f5">✓ Notificaciones de confirmación</li>
+          </ul>
+        </div>
+
+        <div class="feature-card" id="feat-communications">
+          <div class="feat-icon-wrap comms-icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 10c0-2.2 1.8-4 4-4h12c2.2 0 4 1.8 4 4v10c0 2.2-1.8 4-4 4H10c-2.2 0-4-1.8-4-4V10z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+              <circle cx="16" cy="15" r="1" fill="currentColor"/>
+              <circle cx="22" cy="15" r="1" fill="currentColor"/>
+              <circle cx="10" cy="15" r="1" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 data-i18n="features.communications.title">Comunicados Oficiales</h3>
+          <p data-i18n="features.communications.desc">El administrador publica, todos reciben. Sin ruido, sin mensajes perdidos y con confirmación de lectura.</p>
+          <ul class="feat-list">
+            <li data-i18n="features.communications.f1">✓ Comunicados estructurados</li>
+            <li data-i18n="features.communications.f2">✓ Seguimiento de visualizaciones</li>
+            <li data-i18n="features.communications.f3">✓ Historial de comunicados</li>
+            <li data-i18n="features.communications.f4">✓ Notificaciones push</li>
+            <li data-i18n="features.communications.f5">✓ Canal comunitario moderado</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="section-label" data-i18n="how.label">Cómo funciona</div>
+      <h2 class="section-title" data-i18n="how.title">En 3 pasos, tu condominio digitalizado</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number" data-i18n="how.step1.number">01</div>
+          <div class="step-content">
+            <h3 data-i18n="how.step1.title">Registra tu edificio</h3>
+            <p data-i18n="how.step1.desc">El administrador crea el perfil del edificio, agrega las unidades y vincula a cada residente con su departamento.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number" data-i18n="how.step2.number">02</div>
+          <div class="step-content">
+            <h3 data-i18n="how.step2.title">Invita a tus residentes</h3>
+            <p data-i18n="how.step2.desc">Cada propietario e inquilino crea su cuenta vinculada a su unidad. Acceso inmediato a sus pagos, reservas y comunicados.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number" data-i18n="how.step3.number">03</div>
+          <div class="step-content">
+            <h3 data-i18n="how.step3.title">Gestiona desde un solo lugar</h3>
+            <p data-i18n="how.step3.desc">Olvídate de WhatsApp y Excel. Toda la operación del condominio en tu smartphone, disponible 24/7.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEGMENTS -->
+  <section class="segments" id="segments">
+    <div class="container">
+      <div class="section-label" data-i18n="segments.label">Para quién es Edifika</div>
+      <h2 class="section-title" data-i18n="segments.title">Diseñado para cada actor del condominio</h2>
+      <div class="segments-grid">
+        <div class="segment-card" id="seg-admin">
+          <div class="segment-avatar">AD</div>
+          <h3 data-i18n="segments.admin.title">Administradores</h3>
+          <p class="segment-desc" data-i18n="segments.admin.desc">Gestiona máltiples edificios desde un panel centralizado. Menos carga operativa, más transparencia.</p>
+          <ul class="segment-benefits">
+            <li data-i18n="segments.admin.b1">Panel de control unificado</li>
+            <li data-i18n="segments.admin.b2">Control de morosos y cobranza</li>
+            <li data-i18n="segments.admin.b3">Reportes financieros en PDF</li>
+            <li data-i18n="segments.admin.b4">Publicación de comunicados</li>
+            <li data-i18n="segments.admin.b5">Aprobación de reservas</li>
+          </ul>
+          <div class="segment-quote" data-i18n="segments.admin.quote">"Antes usaba Excel y WhatsApp para todo. Ahora gestiono 15 edificios desde un solo lugar."</div>
+          <div class="segment-author" data-i18n="segments.admin.author">— César, administrador</div>
+        </div>
+        <div class="segment-card active" id="seg-resident">
+          <div class="segment-avatar">RE</div>
+          <h3 data-i18n="segments.resident.title">Propietarios e Inquilinos</h3>
+          <p class="segment-desc" data-i18n="segments.resident.desc">Consulta tu deuda, reserva áreas comunes y mantente informado sin depender del administrador.</p>
+          <ul class="segment-benefits">
+            <li data-i18n="segments.resident.b1">Ver deuda actual en tiempo real</li>
+            <li data-i18n="segments.resident.b2">Pagar en línea con Culqi/Yape</li>
+            <li data-i18n="segments.resident.b3">Historial de pagos propio</li>
+            <li data-i18n="segments.resident.b4">Reservar áreas comunes</li>
+            <li data-i18n="segments.resident.b5">Recibir comunicados al instante</li>
+          </ul>
+          <div class="segment-quote" data-i18n="segments.resident.quote">"Ya no necesito ir a la oficina del administrador para saber cuánto debo. Todo lo veo en la app."</div>
+          <div class="segment-author" data-i18n="segments.resident.author">— Andrea, propietaria</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-label" data-i18n="pricing.label">Planes</div>
+      <h2 class="section-title" data-i18n="pricing.title">Precios claros, sin sorpresas</h2>
+      <p class="section-sub" data-i18n="pricing.subtitle">Elige el plan que se adapta al tamaño de tu comunidad.</p>
+      <div class="pricing-grid">
+        <div class="pricing-card" id="plan-starter">
+          <div class="plan-name" data-i18n="pricing.starter.name">Básico</div>
+          <div class="plan-price">
+            <span class="plan-currency">S/</span>
+            <span class="plan-amount" data-i18n="pricing.starter.price">150</span>
+            <span class="plan-period" data-i18n="pricing.starter.period">/mes por edificio</span>
+          </div>
+          <p class="plan-desc" data-i18n="pricing.starter.desc">Ideal para edificios pequeños que inician su digitalización.</p>
+          <ul class="plan-features">
+            <li data-i18n="pricing.starter.f1">✓ Hasta 20 unidades</li>
+            <li data-i18n="pricing.starter.f2">✓ Gestión de pagos y deudas</li>
+            <li data-i18n="pricing.starter.f3">✓ Comunicados oficiales</li>
+            <li data-i18n="pricing.starter.f4">✓ Reserva de áreas comunes</li>
+            <li data-i18n="pricing.starter.f5">✓ Soporte por correo</li>
+          </ul>
+          <a href="#cta" class="btn-plan" data-i18n="pricing.starter.btn">Comenzar</a>
+        </div>
+        <div class="pricing-card featured-plan" id="plan-pro">
+          <div class="plan-badge" data-i18n="pricing.pro.badge">Más elegido</div>
+          <div class="plan-name" data-i18n="pricing.pro.name">Profesional</div>
+          <div class="plan-price">
+            <span class="plan-currency">S/</span>
+            <span class="plan-amount" data-i18n="pricing.pro.price">300</span>
+            <span class="plan-period" data-i18n="pricing.pro.period">/mes por edificio</span>
+          </div>
+          <p class="plan-desc" data-i18n="pricing.pro.desc">Para edificios medianos con mayor volumen de operaciones.</p>
+          <ul class="plan-features">
+            <li data-i18n="pricing.pro.f1">✓ Hasta 60 unidades</li>
+            <li data-i18n="pricing.pro.f2">✓ Todo del plan Básico</li>
+            <li data-i18n="pricing.pro.f3">✓ Reportes exportables en PDF</li>
+            <li data-i18n="pricing.pro.f4">✓ Notificaciones push avanzadas</li>
+            <li data-i18n="pricing.pro.f5">✓ Pago en línea con Culqi</li>
+            <li data-i18n="pricing.pro.f6">✓ Soporte prioritario</li>
+          </ul>
+          <a href="#cta" class="btn-plan featured-btn" data-i18n="pricing.pro.btn">Comenzar</a>
+        </div>
+        <div class="pricing-card" id="plan-enterprise">
+          <div class="plan-name" data-i18n="pricing.enterprise.name">Empresa</div>
+          <div class="plan-price">
+            <span class="plan-amount-custom" data-i18n="pricing.enterprise.price_label">A medida</span>
+          </div>
+          <p class="plan-desc" data-i18n="pricing.enterprise.desc">Para administradoras que gestionan múltiples edificios.</p>
+          <ul class="plan-features">
+            <li data-i18n="pricing.enterprise.f1">✓ Edificios ilimitados</li>
+            <li data-i18n="pricing.enterprise.f2">✓ Todo del plan Profesional</li>
+            <li data-i18n="pricing.enterprise.f3">✓ Panel multiEdificio</li>
+            <li data-i18n="pricing.enterprise.f4">✓ API de integración</li>
+            <li data-i18n="pricing.enterprise.f5">✓ Onboarding dedicado</li>
+            <li data-i18n="pricing.enterprise.f6">✓ SLA garantizado</li>
+          </ul>
+          <a href="#cta" class="btn-plan" data-i18n="pricing.enterprise.btn">Contactar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIÉNES SOMOS -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-label" data-i18n="team.label">¿Quiénes somos?</div>
+      <h2 class="section-title" data-i18n="team.title">Conoce a Condomia</h2>
+      <p class="section-sub" data-i18n="team.subtitle">Somos una startup tecnológica peruana que transforma la gestión de comunidades residenciales mediante soluciones digitales accesibles e intuitivas.</p>
+
+      <!-- Misión & Visión -->
+      <div class="mv-grid">
+        <div class="mv-card">
+          <div class="mv-icon mission-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="2"/>
+              <circle cx="20" cy="20" r="9" stroke="currentColor" stroke-width="2"/>
+              <circle cx="20" cy="20" r="3" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 data-i18n="team.mission">Nuestra Misión</h3>
+          <p data-i18n="team.mission_text">Transformar la gestión de comunidades residenciales mediante soluciones digitales accesibles e intuitivas que centralicen los procesos administrativos, mejoren la comunicación y promuevan la transparencia entre administradores y residentes.</p>
+        </div>
+        <div class="mv-card">
+          <div class="mv-icon vision-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 5L25 15H35L27 20L30 30L20 25L10 30L13 20L5 15H15L20 5Z" stroke="currentColor" stroke-width="2" fill="none"/>
+            </svg>
+          </div>
+          <h3 data-i18n="team.vision">Nuestra Visión</h3>
+          <p data-i18n="team.vision_text">Convertirnos en la plataforma de referencia para la gestión de condominios en Latinoamérica, siendo el aliado digital de cada comunidad residencial que busca operar con orden, transparencia y confianza.</p>
+        </div>
+      </div>
+
+      <div class="section-label" style="margin-top:60px" data-i18n="team.team_label">El equipo</div>
+      <h3 class="section-title" style="font-size:1.6rem;margin-bottom:8px" data-i18n="team.team_title">Construido por estudiantes de Ingeniería de Software</h3>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="profiles/jonatan_acuna.jpeg" alt="Jonatan Acuña" class="team-avatar">
+          <div class="team-name">Jonatan Acuña</div>
+        </div>
+        <div class="team-card">
+          <img src="profiles/gabriel.png" alt="Gabriel Perez" class="team-avatar">
+          <div class="team-name">Gabriel Perez</div>
+        </div>
+        <div class="team-card">
+          <img src="profiles/Sergio_Landa.jpeg" alt="Sergio Landa" class="team-avatar">
+          <div class="team-name">Sergio Landa</div>
+        </div>
+        <div class="team-card">
+          <img src="profiles/antuanete_ortiz.png" alt="Johanna Ortiz" class="team-avatar">
+          <div class="team-name">Johanna Ortiz</div>
+        </div>
+        <div class="team-card">
+          <img src="profiles/loreley_sarmiento.jpg" alt="Loreley Sarmiento" class="team-avatar">
+          <div class="team-name">Loreley Sarmiento</div>
+        </div>
+        <div class="team-card">
+          <img src="profiles/ariana_lizarbe.jpg" alt="Ariana Lizarbe" class="team-avatar">
+          <div class="team-name">Ariana Lizarbe</div>
+        </div>
+        <div class="team-card">
+          <img src="profiles/diego_collantes.png" alt="Diego Collantes" class="team-avatar">
+          <div class="team-name">Diego Collantes</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="cta">
+    <div class="cta-bg">
+      <div class="cta-orb cta-orb1"></div>
+      <div class="cta-orb cta-orb2"></div>
+    </div>
+    <div class="container cta-inner">
+      <h2 class="cta-title" data-i18n="cta.title">¿Listo para digitalizar tu condominio?</h2>
+      <p class="cta-sub" data-i18n="cta.subtitle">Únete a las comunidades que ya gestionan sus edificios con Edifika. Sin complicaciones, sin contratos largos.</p>
+      <form class="cta-form" id="cta-form" onsubmit="handleSubmit(event)">
+        <input type="text" id="cta-name" data-i18n-placeholder="cta.placeholder_name" placeholder="Tu nombre" required />
+        <input type="email" id="cta-email" data-i18n-placeholder="cta.placeholder_email" placeholder="Correo electrónico" required />
+        <input type="text" id="cta-building" data-i18n-placeholder="cta.placeholder_building" placeholder="Nombre del edificio o empresa" />
+        <button type="submit" class="btn-cta-submit" data-i18n="cta.submit">Solicitar demo gratuita</button>
+      </form>
+      <div class="cta-success" id="cta-success" style="display:none">
+        <span class="success-icon success-checkmark">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"/>
+            <path d="M15 24l5 5 13-13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <p data-i18n="cta.success">¡Gracias! Nos pondremos en contacto contigo muy pronto.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">Edifika</span>
+        <p data-i18n="footer.brand">Por Condomia · Lima, Perú · 2026</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4 data-i18n="footer.product">Producto</h4>
+          <a href="#features" data-i18n="nav.features">Funciones</a>
+          <a href="#pricing" data-i18n="nav.pricing">Precios</a>
+          <a href="#how" data-i18n="nav.how">Cómo funciona</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.company">Empresa</h4>
+          <a href="#team" data-i18n="nav.team">Equipo</a>
+          <a href="https://github.com/Condomia/Edifika-report" target="_blank">GitHub</a>
+          <a href="#cta" data-i18n="nav.cta">Contacto</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.segments_footer">Segmentos</h4>
+          <a href="#segments">Administradores</a>
+          <a href="#segments">Propietarios</a>
+          <a href="#segments">Inquilinos</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.copyright">© 2026 Condomia. Todos los derechos reservados. · Universidad Peruana de Ciencias Aplicadas</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
